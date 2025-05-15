@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="826b8bbf93dda610c8ac36befaba104f" label="Computer Inventory" max_length="40" name="x_1739464_new_hi_0_computer_inventory" type="collection">
+        <element choice="3" default="available" label="Available Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+            </choice>
+        </element>
+        <element label="Model" max_length="32" name="model" reference="x_1739464_new_hi_0_computer_model" type="reference"/>
+        <element label="Assignee" max_length="32" name="assignee" reference="sys_user" type="reference"/>
+        <element label="Serial Number" mandatory="true" max_length="40" name="serial_number" type="string"/>
+        <element label="Assigned by" max_length="32" name="assigned_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_by"/>
+        </index>
+        <index name="index2">
+            <element name="assignee"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="311549049369e610c8ac36befaba1017" label="Computer Model" max_length="40" name="x_1739464_new_hi_0_computer_model" type="collection">
+        <element choice="3" display="true" label="Model" max_length="40" name="model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MacBookAir_13inch" sequence="2" value="macbookair_13inch"/>
+                <element inactive_on_update="false" label="MacBookPro_14inch" sequence="3" value="macbookpro_14inch"/>
+                <element inactive_on_update="false" label="ThinkPad-T14" sequence="4" value="thinkpad_t14"/>
+                <element inactive_on_update="false" label="DELL-13inch" sequence="0" value="dell_13inch"/>
+                <element inactive_on_update="false" label="ThinkPad-Z13" sequence="5" value="thinkpad_z13"/>
+                <element inactive_on_update="false" label="DELL-14inch" sequence="1" value="dell_14inch"/>
+            </choice>
+        </element>
+    </element>
+</database>

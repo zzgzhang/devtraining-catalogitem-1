@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>User With Computer Request Roles</name>
+        <role>dad1dd8093a9e610c8ac36befaba1083,2f81dd0493a9e610c8ac36befaba1060,2831a114c611228501d4ea6c309d626d</role>
+        <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]></script>
+        <short_description>hiring managers&#13;
+it admins&#13;
+admins</short_description>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 06:10:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bad1e230936dea10c8ac36befaba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User With Computer Request Roles</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_update_name>user_criteria_bad1e230936dea10c8ac36befaba1049</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 06:10:25</sys_updated_on>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
+    </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=bad1e230936dea10c8ac36befaba1049"/>
+</record_update>

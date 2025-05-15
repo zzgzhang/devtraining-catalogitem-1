@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 05:49:41</sys_created_on>
+        <sys_id>b65419ac93a1aa10c8ac36befaba100c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1739464_new_hi_0_computer_model.x_1739464_new_hi_0.computer_request_it_admins</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_security_acl display_value="x_1739464_new_hi_0_computer_model">d654d16c93a1aa10c8ac36befaba10be</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b65419ac93a1aa10c8ac36befaba100c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 05:49:41</sys_updated_on>
+        <sys_user_role display_value="x_1739464_new_hi_0.computer_request_it_admins" name="x_1739464_new_hi_0.computer_request_it_admins">2f81dd0493a9e610c8ac36befaba1060</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

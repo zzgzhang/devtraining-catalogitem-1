@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>NewBee Computer Request </name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=9701686c93ad6a10c8ac36befaba10ff&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method>request</request_method>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template>
+        <short_description>request computer for new employee</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:05:32</sys_created_on>
+        <sys_id>9701686c93ad6a10c8ac36befaba10ff</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>NewBee Computer Request </sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_update_name>sc_cat_item_9701686c93ad6a10c8ac36befaba10ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:44:36</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>29</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=9701686c93ad6a10c8ac36befaba10ff"/>
+    <fx_price action="DELETE" query="id=9701686c93ad6a10c8ac36befaba10ff"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>9701686c93ad6a10c8ac36befaba10ff</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:05:32</sys_created_on>
+        <sys_id>5701a86c93ad6a10c8ac36befaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:05:32</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</application>
+        <file_path/>
+        <instance_id>147ce682fbd8a61c0921f633beefdc5c</instance_id>
+        <instance_name>dev300162</instance_name>
+        <name>sc_cat_item_9701686c93ad6a10c8ac36befaba10ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>NewBee Computer Request </name><no_attachment_v2>true</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>true</no_cart_v2><no_delivery_time_v2>true</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>true</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=9701686c93ad6a10c8ac36befaba10ff&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><request_method>request</request_method><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template><short_description>request computer for new employee</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 02:05:32</sys_created_on><sys_id>9701686c93ad6a10c8ac36befaba10ff</sys_id><sys_mod_count>29</sys_mod_count><sys_name>NewBee Computer Request </sys_name><sys_package display_value="New Hire Computer Request" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package><sys_policy/><sys_scope display_value="New Hire Computer Request">968d159b93112610c8ac36befaba10f9</sys_scope><sys_update_name>sc_cat_item_9701686c93ad6a10c8ac36befaba10ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-13 02:44:36</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>29</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=9701686c93ad6a10c8ac36befaba10ff"/><fx_price action="delete_multiple" query="id=9701686c93ad6a10c8ac36befaba10ff"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>9701686c93ad6a10c8ac36befaba10ff</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 02:05:32</sys_created_on><sys_id>5701a86c93ad6a10c8ac36befaba105c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-13 02:05:32</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-655049609</payload_hash>
+        <record_name>NewBee Computer Request </record_name>
+        <reverted_from/>
+        <source>d28d159b93112610c8ac36befaba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:44:37</sys_created_on>
+        <sys_id>77f9286893ed6a10c8ac36befaba10c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c787a2e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:44:37</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>3ff92868d3ed6a10d3619b5230621ec7</update_guid>
+        <update_guid_history>3ff92868d3ed6a10d3619b5230621ec7:-655049609,9926e42403ed6a10485ce9884bc56586:-1961263495,cd16a4240ced6a109664ba165e66f80b:2142263580,9c062424fced6a1000ea81d08a174648:-448072869,5c06242425ed6a1003d9d5bf08aa743c:1256557978,2bf5e02455ed6a10c0b0c107ba2bc170:-1333778471,27f5e02495ed6a101b24349efa462a67:370852376,23f5e024c6ed6a10aeaf7ed6d41f695e:2075483223,a7f5e02431ed6a1014af87bbc40eac54:-514853226,abf5e024e1ed6a1077700a0119513845:1189777621,708568e0d5ed6a10f027d791b24cfe91:36950591,8c8528e02aed6a10d756685ea15d28fe:1741581438,bf4524e034ed6a1027137814724e9dba:-848755011,874524e03aed6a10746c4d30ea79e919:855875836,b815eca00ded6a103281ea0efd6de082:-1734460613,e105aca099ed6a10483e16c99daa960d:-29829766,f0056ca014ed6a10131bb472f242cc9a:1674801081,91f3e4603ced6a102eb1f9d4da0289e4:-915535368,c5f3e46040ed6a10153e6120e23179da:789095479,c1f3e46088ed6a101606b8afa70822d0:-1801240970,afe3e46046ed6a10c5ad43a53a749b2d:707226876,83e3a46015ed6a100ab215aa1f28adcf:-1883109573,0be3a460ceed6a1048df112f17f132c3:-178478726,cbe320600fed6a10ca848492f53d641c:1526152121,8d32e0ecf5ad6a10e3bd709e4b678a98:-1064184328,5432a0ec41ad6a102193ff0e1e05a6f2:640446519,5b4120ac1fad6a101b961614a39189d9:-1949889930,7441ec6cf8ad6a10e540fc630e5c14e0:-55672585,b701a86c1bad6a102d68bc2b11444767:-519666405,1b01a86ccdad6a10e0d24315ec734362:1540602755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NewBee Computer Request ">77f9286893ed6a10c8ac36befaba10cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:44:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>415244bc28e64c008d010a7ae2900000</sys_id>
+        <sys_metadata>9701686c93ad6a10c8ac36befaba10ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewBee Computer Request </sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_scope_delete display_value="">7f43061469824ac4ac2fdfa8095fd8e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_9701686c93ad6a10c8ac36befaba10ff</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_9701686c93ad6a10c8ac36befaba10ff">77f9286893ed6a10c8ac36befaba10c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:44:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
