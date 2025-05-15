@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="913acf3f93dda610c8ac36befaba10fd" label="Computer Request" max_length="40" name="x_1739464_new_hi_0_computer_request" type="collection">
+        <element label="Computer Model" mandatory="true" max_length="32" name="computer_model" reference="x_1739464_new_hi_0_computer_model" type="reference"/>
+        <element label="Notes" max_length="200" name="notes" type="string"/>
+        <element choice="3" default="init" label="Progress status" mandatory="true" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Init" sequence="0" value="init"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requested by" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Requested Issue Date" mandatory="true" max_length="255" name="requested_issue_date" type="glide_date" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+        <index name="index2">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>

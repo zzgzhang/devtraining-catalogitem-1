@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="assigned_computer" table="x_1739464_new_hi_0_computer_request">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Assigned Computer</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assigned_computer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1739464_new_hi_0_computer_request</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1739464_new_hi_0_computer_inventory">x_1739464_new_hi_0_computer_inventory</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-11 15:34:56</sys_created_on>
+        <sys_id>d427c1c49369e610c8ac36befaba10a6</sys_id>
+        <sys_name>Assigned Computer</sys_name>
+        <sys_package display_value="New Hire Equipment Request" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Equipment Request">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_update_name>sys_dictionary_x_1739464_new_hi_0_computer_request_assigned_computer</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-11 15:34:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</application>
+        <file_path/>
+        <instance_id>147ce682fbd8a61c0921f633beefdc5c</instance_id>
+        <instance_name>dev300162</instance_name>
+        <name>sys_dictionary_x_1739464_new_hi_0_computer_request_assigned_computer</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="assigned_computer" table="x_1739464_new_hi_0_computer_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Assigned Computer</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>assigned_computer</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1739464_new_hi_0_computer_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1739464_new_hi_0_computer_inventory">x_1739464_new_hi_0_computer_inventory</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-11 15:34:56</sys_created_on><sys_id>d427c1c49369e610c8ac36befaba10a6</sys_id><sys_name>Assigned Computer</sys_name><sys_package display_value="New Hire Equipment Request" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package><sys_policy/><sys_scope display_value="New Hire Equipment Request">968d159b93112610c8ac36befaba10f9</sys_scope><sys_update_name>sys_dictionary_x_1739464_new_hi_0_computer_request_assigned_computer</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-11 15:34:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>437971459</payload_hash>
+        <record_name>Computer Request.Assigned Computer</record_name>
+        <reverted_from/>
+        <source>d28d159b93112610c8ac36befaba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-11 15:34:57</sys_created_on>
+        <sys_id>642705c49369e610c8ac36befaba1047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196bffc2efe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-11 15:34:57</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>2c2705c45c69e610ceeacd8626f6ad46</update_guid>
+        <update_guid_history>2c2705c45c69e610ceeacd8626f6ad46:437971459,982705c4b869e610806d8610c1d67f3e:-1048465742</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 07:46:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>010465c89ca64c5080035491be8e5704</sys_id>
+        <sys_metadata>d427c1c49369e610c8ac36befaba10a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned Computer</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_parent display_value="New Hi 0 Computer Request">913acf3f93dda610c8ac36befaba10fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_scope_delete display_value="">7f43061469824ac4ac2fdfa8095fd8e4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1739464_new_hi_0_computer_request_assigned_computer</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1739464_new_hi_0_computer_request_assigned_computer">642705c49369e610c8ac36befaba1047</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 07:46:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

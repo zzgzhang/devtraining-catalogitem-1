@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="NewBee Computer Request">031ae86893ed6a10c8ac36befaba109e</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:45:33</sys_created_on>
+        <sys_id>ad3aac6893ed6a10c8ac36befaba1039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.NewBee Computer Request</sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ad3aac6893ed6a10c8ac36befaba1039</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:45:33</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</application>
+        <file_path/>
+        <instance_id>147ce682fbd8a61c0921f633beefdc5c</instance_id>
+        <instance_name>dev300162</instance_name>
+        <name>sc_cat_item_catalog_ad3aac6893ed6a10c8ac36befaba1039</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="NewBee Computer Request">031ae86893ed6a10c8ac36befaba109e</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 02:45:33</sys_created_on><sys_id>ad3aac6893ed6a10c8ac36befaba1039</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.NewBee Computer Request</sys_name><sys_package display_value="New Hire Computer Request" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package><sys_policy/><sys_scope display_value="New Hire Computer Request">968d159b93112610c8ac36befaba10f9</sys_scope><sys_update_name>sc_cat_item_catalog_ad3aac6893ed6a10c8ac36befaba1039</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-13 02:45:33</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>202515102</payload_hash>
+        <record_name>Service Catalog.NewBee Computer Request</record_name>
+        <reverted_from/>
+        <source>d28d159b93112610c8ac36befaba10fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:45:33</sys_created_on>
+        <sys_id>293aac6893ed6a10c8ac36befaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c7887ec40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:45:33</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>693aac6821ed6a10c8b93a9fe9868d3c</update_guid>
+        <update_guid_history>693aac6821ed6a10c8b93a9fe9868d3c:202515102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.NewBee Computer Request">293aac6893ed6a10c8ac36befaba1048</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 02:45:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>28cd03d40f364ef0888ea9d7877f2499</sys_id>
+        <sys_metadata>ad3aac6893ed6a10c8ac36befaba1039</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.NewBee Computer Request</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1739464_new_hi_0">968d159b93112610c8ac36befaba10f9</sys_package>
+        <sys_parent display_value="NewBee Computer Request">031ae86893ed6a10c8ac36befaba109e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">968d159b93112610c8ac36befaba10f9</sys_scope>
+        <sys_scope_delete display_value="">7f43061469824ac4ac2fdfa8095fd8e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ad3aac6893ed6a10c8ac36befaba1039</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ad3aac6893ed6a10c8ac36befaba1039">293aac6893ed6a10c8ac36befaba103d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 02:45:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
